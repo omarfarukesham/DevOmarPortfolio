@@ -7,11 +7,11 @@ const Skills = () => {
        
         <div className='mt-10 bg-base-200 text-black'>
             {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'></div> */}
-            <div class="divider  font-bold text-3xl text-primary pt-10"> Skills </div>
+            <div class=" text-center font-bold text-4xl text-primary py-10"><i class="fa-solid fa-gear px-2"></i> Skills </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'>
-                <div className='ml-5'>
-                    <h1 className='text-2xl font-bold'> <i class="fa-solid fa-rocket text-3xl text-primary pr-3"></i>Programming Skills</h1>
-                    <p className='py-2 mt-10'><span className='font-bold'>Front-End</span> - Javascript, ReactJs, HTML5, CSS3, Bootstrap, Tailwind</p>
+                <div className='mx-auto' >
+                    <h1 className='text-2xl font-bold mt-10'> <i class="fa-solid fa-rocket text-2xl text-primary pr-3"></i>Programming Skills</h1>
+                    <p className='py-2 '><span className='font-bold'>Front-End</span> - Javascript, ReactJs, HTML5, CSS3, Bootstrap, Tailwind</p>
                     <p className='py-2'><span className='font-bold'>Back-End </span> - Nodejs, Express, MongoDB, Strive(Payment Gateway),ReactQuery</p>
                     <p className='py-2'><span className='font-bold'>Web-Security</span> - Firebase Authentication, jwt(Authorization),</p>
                     <p className='py-2'><span className='font-bold'>Popular Tools</span> - SendGrid,Heroku, Netlify, ReactAuth Hooks</p>
@@ -87,12 +87,12 @@ const Skills = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
 
-                <div className='bg-base-200 lg:ml-5 ms:m-auto'>
+                <div className='bg-base-200 lg:m-5 ms:m-auto'>
                     <img className='rounded-2xl' src="https://resumegenius.com/wp-content/uploads/resume-soft-skills-hero.png" />
                 </div>
 
                 <div className='p-5 mt-10 ml-7'>
-                    <h1 className='text-2xl font-bold'> <i class="fa-solid fa-people-roof  text-3xl text-primary pr-3"></i>Generic Skills</h1>
+                    <h1 className='text-2xl font-bold'> <i class="fa-solid fa-people-roof  text-2xl text-primary pr-3"></i>Generic Skills</h1>
                     <p className='py-2'><span className='font-bold'>Supervisory</span> - Intro Management,
                         Leadership,Employee Motivation, Teamwork, Counselling, Conflict-Management,Interpersonal Communication</p>
                     <p className='py-2 mb-5'><span className='font-bold'>Safety </span> - Occupational Health and Safety(EOSH), Fire Safety, Mental Health Safety</p>
