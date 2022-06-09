@@ -5,8 +5,7 @@ const Education = () => {
         <>
             <div class="divider font-bold text-3xl text-secondary my-20"> Education and Training</div>
 
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-10 ' data-aos="fade-up" data-aos-duration="2000">
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:mx-10 ' data-aos="fade-up" data-aos-duration="2000">
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <div class="avatar flex justify-center">
                         <div class="w-12 rounded-full">

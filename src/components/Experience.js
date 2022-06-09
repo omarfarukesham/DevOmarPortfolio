@@ -2,8 +2,8 @@ import React from 'react';
 
 const Experience = () => {
     return (
-        <>
-             <div class="divider font-bold text-3xl text-secondary my-20"> Experiences</div>
+        <div className='bg-base-200 py-8'>
+             <div class="text-center font-bold text-4xl text-secondary my-5"><i class="fa-solid px-2 fa-anchor-circle-exclamation"></i> Experiences</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mx-10' data-aos="fade-up" data-aos-duration="2000">
                 <div class="card  bg-base-100 hover:shadow-xl">
                     <div class="card-body text-center">
@@ -50,7 +50,7 @@ const Experience = () => {
                 </div>
 
             </div>
-        </>
+        </div>
     );
 };
 
