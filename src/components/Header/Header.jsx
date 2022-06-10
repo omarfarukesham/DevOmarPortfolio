@@ -80,9 +80,6 @@ const Header = () => {
               <NavLink to="blogs">Blogs</NavLink>
             </li>
             <li>
-              <NavLink to="Projects">Projects</NavLink>
-            </li>
-            <li>
               <NavLink to="service">Service</NavLink>
             </li>
             <li tabindex="0">

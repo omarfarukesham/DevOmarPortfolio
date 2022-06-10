@@ -1,9 +1,10 @@
 import React from 'react';
 import toolMerchant from '../images/toolMerchant.jpg'
 import kidsStore from '../images/kidStore.png'
+import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
-        <div className='mb-5'>
+        <div className='mb-5' id="project">
             <div class="divider font-bold text-3xl text-secondary my-20"> Projects </div>
             <div className='grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 gap-5 mx-5'>
                 <div class="card card-side bg-base-100  hover:shadow-2xl">
@@ -17,7 +18,8 @@ const Projects = () => {
                         <p className='my-3 font-bold'>Used Technologies</p>
                         <small>ReactJs, Nodejs, ExpressJs, MongoDB, firebase Auth, jwt, Strive(gateway), React Form, DaisyUI,Tailwind CSS.</small>
                         <div class="card-actions justify-start my-4">
-                            <a href='https://toolmarchent.firebaseapp.com/' target='_blank' class="btn btn-primary text-white">Live webApp</a>
+                            <a href='https://toolmarchent.firebaseapp.com/' target='_blank' class="btn btn-primary btn-xs text-white">Live webApp</a>
+                            <Link  to='/projectDetails1' class="btn btn-primary btn-xs text-white mx-2">See More</Link>
                         </div>
                     </div>
                 </div>
@@ -32,7 +34,8 @@ const Projects = () => {
                         <p className='my-3 font-bold'>Used Technologies</p>
                         <small>ReactJs, Nodejs, ExpressJs, MongoDB, firebase, jwt,Rechart(Graphical Dashboard), Hooks, React Router.</small>
                         <div class="card-actions justify-start my-4">
-                            <a  href='https://toystore-react-app.firebaseapp.com/' target='_blank'  class="btn btn-primary text-white">Live webApp</a>
+                            <a  href='https://toystore-react-app.firebaseapp.com/' target='_blank'  class="btn btn-primary btn-xs text-white">Live webApp</a>
+                            <Link  to='/projectDetails' class="btn btn-primary btn-xs text-white mx-2">See More</Link>
                         </div>
                     </div>
                 </div>
@@ -47,7 +50,7 @@ const Projects = () => {
                         <p className='my-3 font-bold'>Used Technologies</p>
                         <small>ReactJs,  firebase Auth, React Form, Bootstrap, React Form</small>
                         <div class="card-actions justify-start my-4">
-                            <a href='https://corporate-trainer-app.firebaseapp.com/'  target='_blank'  class="btn btn-primary text-white">Live webApp</a>
+                            <a href='https://corporate-trainer-app.firebaseapp.com/'  target='_blank'  class="btn btn-primary btn-xs text-white">Live webApp</a>
                         </div>
                     </div>
                 </div>
@@ -62,7 +65,7 @@ const Projects = () => {
                         <p className='my-3 font-bold'>Used Technologies</p>
                         <small>ReactJs, Nodejs, ExpressJs, MongoDB, firebase Auth, jwt, Strive(gateway), React Form, DaisyUI,Tailwind CSS.</small>
                         <div class="card-actions justify-start my-4">
-                            <a  href='https://doctorola-b3a35.firebaseapp.com/'  target='_blank' class="btn btn-primary text-white">Live webApp</a>
+                            <a  href='https://doctorola-b3a35.firebaseapp.com/'  target='_blank' class="btn btn-primary btn-xs text-white">Live webApp</a>
                         </div>
                     </div>
                 </div>
