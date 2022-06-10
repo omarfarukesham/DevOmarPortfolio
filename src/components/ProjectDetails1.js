@@ -12,9 +12,9 @@ const ProjectDetails1 = () => {
                 <div className='mx-auto'>
                     <div className='lg:mx-auto mx-3'>
                         <p className='font-bold text-xl'>Proven Track - </p>
-                        <a href='' target='_blank' className='btn btn-primary btn-xs mx-2 text-white my-3' >Live Site </a> ||
-                        <a href='' target='_blank' className='btn btn-primary btn-xs mx-2 text-white my-3' >GitHub(Client) </a> ||
-                        <a href='' target='_blank' className='btn btn-primary btn-xs mx-2 text-white my-3' >GitHub(Sever) </a>
+                        <a href='https://toolmarchent.firebaseapp.com/' target='_blank' className='btn btn-primary btn-xs mx-2 text-white my-3' >Live Site </a> ||
+                        <a href='https://github.com/omarfarukesham/toolMerchant-client' target='_blank' className='btn btn-primary btn-xs mx-2 text-white my-3' >GitHub(Client) </a> ||
+                        <a href='https://github.com/omarfarukesham/toolMerchant-server' target='_blank' className='btn btn-primary btn-xs mx-2 text-white my-3' >GitHub(Sever) </a>
                     </div>
                     <br></br>
                    <div className='mx-3'>

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "001",
+    "image": "https://firebase.google.com/images/homepage/cloud-plus-firebase_1x.png",
+    "author": "Omar Faruk",
+    "Article": "Firebase Authentication aims to make building secure authentication systems easy, while improving the sign-in and onboarding experience for end users. It provides an end-to-end identity solution, supporting email and password accounts, phone auth, and Google, Twitter, Facebook, and GitHub login, and more.",
+    "reading_time": "5 min.",
+    "Rating":"4.5",
+    "gender": "Male"
+  },
+  {
+    "id": "002",
+    "image": "https://jwt.io/img/logo-asset.svg",
+    "author": "Austin Black",
+    "Article": "JSON Web Token is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims. The tokens are signed either using a private secret or a public/private key.",
+    "reading_time": "4 min.",
+    "Rating":"4.5",
+    "gender": "Male"
+  },
+  {
+    "id": "003",
+    "image": "https://firebase.google.com/images/homepage/cloud-plus-firebase_1x.png",
+    "author": "Omar Faruk",
+    "Article": "Firebase Authentication aims to make building secure authentication systems easy, while improving the sign-in and onboarding experience for end users. It provides an end-to-end identity solution, supporting email and password accounts, phone auth, and Google, Twitter, Facebook, and GitHub login, and more.",
+    "reading_time": "5 min.",
+    "Rating":"4.5",
+    "gender": "Male"
+  },
+  {
+    "id": "004",
+    "image": "https://jwt.io/img/logo-asset.svg",
+    "author": "Austin Black",
+    "Article": "JSON Web Token is a proposed Internet standard for creating data with optional signature and/or optional encryption whose payload holds JSON that asserts some number of claims. The tokens are signed either using a private secret or a public/private key.",
+    "reading_time": "4 min.",
+    "Rating":"4.5",
+    "gender": "Male"
+  },
+  {
+    "id": "005",
+    "image": "https://firebase.google.com/images/homepage/cloud-plus-firebase_1x.png",
+    "author": "Omar Faruk",
+    "Article": "Firebase Authentication aims to make building secure authentication systems easy, while improving the sign-in and onboarding experience for end users. It provides an end-to-end identity solution, supporting email and password accounts, phone auth, and Google, Twitter, Facebook, and GitHub login, and more.",
+    "reading_time": "5 min.",
+    "Rating":"4.5",
+    "gender": "Male"
+  }
+ 
+]

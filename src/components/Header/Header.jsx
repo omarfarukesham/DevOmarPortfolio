@@ -30,9 +30,12 @@ const Header = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Home</a>
+                <Link to ='/'>Home</Link>
               </li>
-              <li tabindex="0">
+              <li>
+                <Link to ='/about'>About</Link>
+              </li>
+              {/* <li tabindex="0">
                 <a class="justify-between">
                   Activity
                   <svg
@@ -53,7 +56,7 @@ const Header = () => {
                     <NavLink to="/bookReview">Book Review</NavLink>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <NavLink to="/blogs">Blogs</NavLink>
               </li>
@@ -64,7 +67,7 @@ const Header = () => {
                 <NavLink to="/Contact">Contact</NavLink>
               </li>
               <li>
-                <NavLink to="/project">Project</NavLink>
+                <NavLink to="/projectDetails">Project</NavLink>
               </li>
             </ul>
           </div>
@@ -73,16 +76,20 @@ const Header = () => {
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
+         
             <li>
               <NavLink to="/" >Home</NavLink>
             </li>
             <li>
-              <NavLink to="blogs">Blogs</NavLink>
+              <NavLink to="about">About</NavLink>
             </li>
+            
             <li>
-              <NavLink to="service">Service</NavLink>
+              <NavLink to="projectDetails">Project</NavLink>
             </li>
-            <li tabindex="0">
+
+          
+            {/* <li tabindex="0">
               <a>
                 Activity
                 <svg
@@ -103,10 +110,14 @@ const Header = () => {
                   <NavLink to="/bookReview">Books Review</NavLink>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
+            
             <li>
-              <NavLink to="about">About</NavLink>
+              <NavLink to="service">Service</NavLink>
+            </li>
+            <li>
+              <NavLink to="blogs">Blogs</NavLink>
             </li>
             <li>
               <NavLink to="contact">Contact</NavLink>

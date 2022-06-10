@@ -2,6 +2,7 @@ import React from "react";
 import Excel from "../images/Excel.png";
 import mss from "../images/mss.png";
 import omar from '../images/devOmar.png'
+import Footer from "./Footer";
 const About = () => {
   return (
     <>
@@ -133,6 +134,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer></Footer>
     </>
   );
 };
