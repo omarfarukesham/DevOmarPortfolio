@@ -1,7 +1,9 @@
 import React from "react";
 import Excel from "../images/Excel.png";
-import mss from "../images/mss.png";
+import mss from "../images/mss1.png";
 import omar from '../images/devOmar.png'
+import ilo from '../images/ilo.png'
+import php from '../images/php.png'
 import Footer from "./Footer";
 const About = () => {
   return (
@@ -111,26 +113,26 @@ const About = () => {
         </div>
         <div class="card w-75 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
-            <img src={Excel} alt="Shoes" class="rounded-xl" />
+            <img src={php} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center">
-            <h2 class="card-title">Excel!</h2>
+            <h2 class="card-title">PHP!</h2>
             <p className="font-bold">Knowing Features</p>
-            <small>1. Navigate the Data, get Result</small>
-            <small>2. Short-cut, and Excel Formulas</small>
-            <small>3. Pivot Tables, Conditional Formatting</small>
+            <small>1. PHP, OOP</small>
+            <small>2. SQL</small>
+            <small>3. Laravel(Basic)</small>
           </div>
         </div>
         <div class="card w-75 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
-            <img src={Excel} alt="Shoes" class="rounded-xl" />
+            <img src={ilo} alt="Shoes" class="rounded-xl" />
           </figure>
           <div class="card-body items-center">
-            <h2 class="card-title">Excel!</h2>
+            <h2 class="card-title">Supervisory Skills!</h2>
             <p className="font-bold">Knowing Features</p>
-            <small>1. Navigate the Data, get Result</small>
-            <small>2. Short-cut, and Excel Formulas</small>
-            <small>3. Pivot Tables, Conditional Formatting</small>
+            <small>1. Leadership</small>
+            <small>2. Employee Motivation</small>
+            <small>3. Communication</small>
           </div>
         </div>
       </div>

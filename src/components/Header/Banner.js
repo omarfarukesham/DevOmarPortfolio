@@ -33,10 +33,10 @@ const Banner = () => {
             <a 
               data-aos='zoom-in'
               data-aos-delay='2000'
-              class='btn btn-info text-white'
+              class='btn btn-primary text-white'
               
-                target='_blank'
-              href='https://drive.google.com/file/d/1PnOzsz9GREsv6I5VYIf4ahQIh15E_ngn/view?usp=sharing'
+              target='_blank'
+              href='https://drive.google.com/file/d/11ymWayWPVkH497u4rdVVx3_rxhqwRf8c/view'
               download
             >
              Download Resume <i class="fa-solid fa-arrow-down-long font-bold text-white p-2"></i>
