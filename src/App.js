@@ -13,25 +13,37 @@ import ProjectDetails1 from './components/ProjectDetails1';
 import Blogs from './components/Blogs';
 import { Contact } from './components/Contact';
 import Service from './components/Header/Service';
+import Login from './components/Login';
+import Training from './Training';
+import RequireAuth from './components/RequireAuth';
 
 function App() {
 
   return (
     <div className="App">
-     <Header></Header>
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='About' element={<About></About>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+
+
+        <Route path="/training" element={
+          <RequireAuth>
+            <Training></Training>
+          </RequireAuth>
+        }></Route>
+
         <Route path='/projectDetails' element={<ProjectDetails></ProjectDetails>}></Route>
         <Route path='/projectDetails1' element={<ProjectDetails1></ProjectDetails1>}></Route>
         <Route path='/friend/:friendId' element={<Details></Details>}></Route>
         <Route path="Friends" element={<Friends></Friends>}></Route>
-    
+
         <Route path='*' element={<NotFound></NotFound>}></Route>
-        
+
       </Routes>
 
     </div>

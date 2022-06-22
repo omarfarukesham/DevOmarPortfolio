@@ -21,7 +21,7 @@ const Skills = () => {
                     <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 bg-base-200 p-5 m-2' data-aos="fade-in" data-aos-duration="2000">
 
                         <div class="indicator m-2">
-                            <span class="indicator-item indicator-center badge badge-accent"></span>
+                            <span class="indicator-item indicator-center badge badge-primary"></span>
                             <div class="grid w-32 h-32 bg-base-100 place-items-center hover:shadow-xl">
                                 <div class="w-32">
                                     <img src="https://www.logo.wine/a/logo/React_(web_framework)/React_(web_framework)-Logo.wine.svg" />
@@ -31,7 +31,7 @@ const Skills = () => {
                         </div>
 
                         <div class="indicator m-2">
-                            <span class="indicator-item indicator-center badge badge-secondary "></span>
+                            <span class="indicator-item indicator-center badge badge-primary "></span>
                             <div class="grid w-32 h-32 bg-base-100 place-items-center hover:shadow-xl">
                                 <div class="w-32 bg-">
                                     <img src="https://www.logo.wine/a/logo/Node.js/Node.js-Logo.wine.svg" />
@@ -41,7 +41,7 @@ const Skills = () => {
                         </div>
 
                         <div class="indicator m-2">
-                            <span class="indicator-item indicator-center badge badge-secondary"></span>
+                            <span class="indicator-item indicator-center badge badge-primary"></span>
                             <div class="grid w-32 h-32 bg-base-100 place-items-center hover:shadow-xl">
                                 <div class="w-32 bg-">
                                     <img src="https://www.logo.wine/a/logo/MongoDB/MongoDB-Logo.wine.svg" />
@@ -52,7 +52,7 @@ const Skills = () => {
 
 
                         <div class="indicator m-2">
-                            <span class="indicator-item indicator-center badge badge-secondary"></span>
+                            <span class="indicator-item indicator-center badge badge-primary"></span>
                             <div class="grid w-32 h-32 bg-base-100 place-items-center  hover:shadow-xl">
                                 <div class="w-32 bg-">
                                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Firebase_Logo.svg/768px-Firebase_Logo.svg.png?20200221081546" />
@@ -61,7 +61,7 @@ const Skills = () => {
                             </div>
                         </div>
                         <div class="indicator m-2">
-                            <span class="indicator-item indicator-center badge badge-secondary"></span>
+                            <span class="indicator-item indicator-center badge badge-primary"></span>
                             <div class="grid w-32 h-32 bg-base-100 place-items-center  hover:shadow-xl">
                                 <div class="w-32 bg-">
                                     <img src="https://ies.solutions/wordpress/wp-content/uploads/jwt.png" />
@@ -71,7 +71,7 @@ const Skills = () => {
                         </div>
 
                         <div class="indicator m-2 ">
-                            <span class="indicator-item indicator-center badge badge-secondary"></span>
+                            <span class="indicator-item indicator-center badge badge-primary"></span>
                             <div class="grid w-32 h-32 bg-base-100 place-items-center  hover:shadow-xl">
                                 <div class="w-32 bg-">
                                     <img src="https://getlogovector.com/wp-content/uploads/2021/01/tailwind-css-logo-vector.png" />
@@ -97,7 +97,7 @@ const Skills = () => {
                         Leadership,Employee Motivation, Teamwork, Counselling, Conflict-Management,Interpersonal Communication</p>
                     <p className='py-2 mb-5'><span className='font-bold'>Safety </span> - Occupational Health and Safety(EOSH), Fire Safety, Mental Health Safety</p>
                     <a href='https://10minuteschool.com/skills/courses/70/supervisory-skills-training' target='_blank' className='btn btn-primary btn-sm mx-2 text-white'>SoftSkills</a>
-                    <a href='https://10minuteschool.com/skills/courses/70/supervisory-skills-training' target='_blank' className='btn btn-primary btn-sm mx-2 text-white'>Awarness</a>
+                    <a href='https://10minuteschool.com/skills/courses/71/fire-safety-awareness' target='_blank' className='btn btn-primary btn-sm mx-2 text-white'>Awarness</a>
                 </div>
 
             </div>
