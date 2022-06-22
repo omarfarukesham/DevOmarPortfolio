@@ -16,6 +16,7 @@ import Service from './components/Header/Service';
 import Login from './components/Login';
 import Training from './Training';
 import RequireAuth from './components/RequireAuth';
+import SignUp from './components/SignUp';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         <Route path='/service' element={<Service></Service>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/signUp" element={<SignUp></SignUp>}></Route>
 
 
         <Route path="/training" element={
