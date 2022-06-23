@@ -9,7 +9,7 @@ const Skills = () => {
             {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'></div> */}
             <div class=" text-center font-bold text-4xl text-primary py-10"><i class="fa-solid fa-gear px-2"></i> Skills </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5'>
-                <div className='mx-auto' >
+                <div className='p-5 mt-10 ml-7' >
                     <h1 className='text-2xl font-bold mt-10'> <i class="fa-solid fa-rocket text-2xl text-primary pr-3"></i>Programming Skills</h1>
                     <p className='py-2 '><span className='font-bold'>Front-End</span> - Javascript, ReactJs, HTML5, CSS3, Bootstrap, Tailwind</p>
                     <p className='py-2'><span className='font-bold'>Back-End </span> - Nodejs, Express, MongoDB, Strive(Payment Gateway),ReactQuery</p>

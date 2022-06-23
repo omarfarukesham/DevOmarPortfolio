@@ -17,6 +17,8 @@ import Login from './components/Login';
 import Training from './Training';
 import RequireAuth from './components/RequireAuth';
 import SignUp from './components/SignUp';
+import Human from './components/Human';
+import Programming from './components/Programming';
 
 function App() {
 
@@ -31,6 +33,8 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signUp" element={<SignUp></SignUp>}></Route>
+        <Route path="/human" element={<Human></Human>}></Route>
+        <Route path="/programming" element={<Programming></Programming>}></Route>
 
 
         <Route path="/training" element={

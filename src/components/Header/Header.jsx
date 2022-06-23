@@ -10,7 +10,7 @@ const Header = () => {
   const logout = () => {
     signOut(auth);
   };
-  // console.log()
+  // console.log(user.reloadUserInfo.photoUrl)
 
   return (
     <div data-theme={dark ? "dark" : "light"} className="sticky top-0 z-50">
@@ -52,6 +52,25 @@ const Header = () => {
               <li>
                 <NavLink to="/Contact">Contact</NavLink>
               </li>
+              {user ? (
+              <>
+                <button onClick={logout} className="btn btn-base-200">
+                  <div class="avatar online p-2">
+                    <div class="w-8 rounded-full">
+                      {
+                        user?.reloadUserInfo?.photoUrl ?  <img src={user?.reloadUserInfo?.photoUrl} alt="User" /> : <img src="https://api.lorem.space/image/face?hash=28212" />
+                      }
+                      
+                    </div>
+                  </div>
+                  SignOut
+                </button>
+              </>
+            ) : (
+              <li>
+                <Link to="/login">Login</Link>
+              </li>
+            )}
               <li>
                 <NavLink to="/projectDetails">Project</NavLink>
               </li>
@@ -63,27 +82,27 @@ const Header = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <NavLink to="about">About</NavLink>
-            </li>
-
-            <li>
-              <NavLink to="projectDetails">Project</NavLink>
+              <Link to="about">About</Link>
             </li>
 
             <li>
-              <NavLink to="service">Service</NavLink>
+              <Link to="projectDetails">Project</Link>
+            </li>
+
+            <li>
+              <Link to="service">Service</Link>
             </li>
             <li>
               <NavLink to="blogs">Blogs</NavLink>
             </li>
             <li>
-              <NavLink to="training">Training</NavLink>
+              <Link to="training">Training</Link>
             </li>
             <li>
-              <NavLink to="contact">Contact</NavLink>
+              <Link to="contact">Contact</Link>
             </li>
            
             {user ? (
@@ -92,7 +111,7 @@ const Header = () => {
                   <div class="avatar online p-2">
                     <div class="w-8 rounded-full">
                       {
-                        user?.reloadUserInfo?.photoUrl ?  <img src={user.reloadUserInfo.photoUrl} /> : <img src="https://api.lorem.space/image/face?hash=28212" />
+                        user?.reloadUserInfo?.photoUrl ?  <img src={user?.reloadUserInfo?.photoUrl} alt="User" /> : <img src="https://api.lorem.space/image/face?hash=28212" />
                       }
                       
                     </div>
@@ -127,6 +146,7 @@ const Header = () => {
            
           </ul>
         </div>
+
       </div>
     </div>
   );

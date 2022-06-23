@@ -7,7 +7,7 @@ export const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_sokkdoo', 'template_pp1de3u', form.current, '_pExYHow5wWts9bKuKotm')
+        emailjs?.sendForm('service_sokkdoo', 'template_pp1de3u', form.current, '_pExYHow5wWts9bKuKotm')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
