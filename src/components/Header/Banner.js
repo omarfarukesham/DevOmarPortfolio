@@ -36,7 +36,7 @@ const Banner = () => {
               class='btn btn-primary text-white'
               
               target='_blank'
-              href='https://drive.google.com/file/d/11ymWayWPVkH497u4rdVVx3_rxhqwRf8c/view'
+              href='https://drive.google.com/file/d/1gq-mfSGQOzsnJuV7rkKJfw3fRTBmY-8U/view?usp=sharing'
               download
             >
              Download Resume <i class="fa-solid fa-arrow-down-long font-bold text-white p-2"></i>
