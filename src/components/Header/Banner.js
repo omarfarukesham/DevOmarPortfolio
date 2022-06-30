@@ -42,9 +42,11 @@ const Banner = () => {
              Download Resume <i class="fa-solid fa-arrow-down-long font-bold text-white p-2"></i>
             
             </a>
+            <a href='https://www.youtube.com/watch?v=manw80QNEwM&t=8s' target='_black' className='btn btn-primary mx-3 text-white text-center'><i class="fa-brands fa-youtube mx-2"></i>YouTube</a>
           </div>
           <div className='h-[60vh] shrink-0' data-aos="fade-in" data-aos-duration="2000">
             <img src={devOmar} class='h-full rounded-xl' alt='' />
+           
           </div>
         </div>
       </div>

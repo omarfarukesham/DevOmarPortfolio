@@ -99,7 +99,7 @@ const Header = () => {
               <NavLink to="blogs">Blogs</NavLink>
             </li>
             <li>
-              <Link to="training">Training</Link>
+              <Link to="training"><i class="fa-solid fa-gift"></i>Training</Link>
             </li>
             <li>
               <Link to="contact">Contact</Link>
